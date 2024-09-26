@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Post</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+     <!-- Navbar -->
+     <nav class="navbar">
+        <h1>Think Posts</h1>
+        <ul>
+            <li><a href="http://localhost:3000/posts">Home</a></li>
+            <li><a href="http://localhost:3000/posts">All Posts</a></li>
+            <li><a href="http://localhost:3000/posts/new">Create New Post</a></li>
+            <li><a href="http://localhost:3000/signup">Sign up</a></li>
+            <li><a href="http://localhost:3000/login">log In</a></li>
+        </ul>
+    </nav>
+    <div class="post1">
+        <h2>Create new post</h2>
+        <form method="post" action="/posts">
+            <input placeholder="enter username" name="username">
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <textarea name="content" placeholder="write your post"></textarea><br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="btn-new">Submit Post</button>
+        </form>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Think Posts. All rights reserved.</p>
+        <p><a href="http://localhost:3000/privacy">Privacy Policy</a> | <a href="http://localhost:3000/terms">Terms of Service</a></p>
+    </footer>
+</body>
+</html>

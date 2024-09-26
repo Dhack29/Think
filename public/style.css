@@ -1,0 +1,250 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:  #121212;; /* Dark background */
+    color: #e0e0e0; /* Light text for contrast */
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px; /* Ensure content doesn't overlap footer */
+}
+
+/* Post Container */
+.post {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    margin: 20px auto;
+    padding: 20px;
+    width: 70%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+.post1 {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+.post2 {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    margin: 200px auto;
+    padding: 20px;
+    width: 15%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+.post h3 {
+    font-size: 18px;
+    color: #f1f1f1;
+}
+
+.post h4 {
+    font-size: 16px;
+    color: #b0b0b0;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #3498db;
+}
+
+/* Buttons */
+button {
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-new{
+    background-color: #43aa54;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+.link-button {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.link-button:hover {
+    background-color: #3498db;
+}
+
+form {
+    display: inline;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+    padding: 20px;
+    /* margin-top: 40px; */
+    text-align: center;
+    font-size: 14px;
+    position: fixed; /* Fix footer at the bottom */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Full width */
+    height: 6%;
+}
+/* General Styles */
+h1 {
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+    padding: 20px;
+    margin: 0;
+    font-size: 28px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+h2 {
+    color: #f1f1f1; /* Light text color for h2 */
+    margin: 20px 0; /* Margin around the heading */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #1a1a1a;
+    padding: 15px 30px; /* Increased padding for a better layout */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between title and links */
+    align-items: center; /* Center items vertically */
+    list-style-type: none;
+}
+
+.navbar h1 {
+    margin: 0; /* Remove margin from title */
+    color: #f1f1f1; /* Light text color for title */
+    font-size: 24px; /* Adjust title font size */
+}
+
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox for horizontal layout */
+}
+
+.navbar li {
+    margin: 0 20px; /* Space between links */
+}
+
+.navbar a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 15px; /* Add padding for better click area */
+    border-radius: 5px; /* Rounded corners for hover effect */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #3498db; 
+    color: white; 
+}
+
+/* Form Styles */
+form {
+    background-color: #1f1f1f; 
+    padding: 20px; 
+    border-radius: 10px; 
+    width: 70%; 
+    margin: 20px auto; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+}
+
+input,
+textarea {
+    width: 900px; 
+    padding: 10px; 
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #333;
+    border-radius: 5px; 
+    background-color: #2a2a2a; 
+    color: #e0e0e0; 
+}
+
+textarea {
+    height: 100px; 
+}
+
+.input2
+{
+    width: 240px; 
+    padding: 10px; 
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #333;
+    border-radius: 5px; 
+    background-color: #2a2a2a; 
+    color: #e0e0e0; 
+}
+
+/* Buttons */
+button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: flex-start; /* Align items to the start */
+    }
+    
+    .navbar ul {
+        flex-direction: column; /* Stack links vertically */
+        width: 100%; /* Full width */
+    }
+
+    .navbar li {
+        margin: 10px 0; /* Space between stacked links */
+    }
+}
